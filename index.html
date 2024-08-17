@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotos Hanni</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+        line-height: 1.6;
+        letter-spacing: 0.5px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #333;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+      }
+
+      p {
+        color: #666;
+      }
+
+      a {
+        color: #007bff;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .imagen {
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        transition: transform 150ms ease-in;
+      }
+
+      .imagen:hover {
+        transform: scale(1.1);
+      }
+
+      .title {
+        font-size: 32px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="my-4">
+        <h1 class="title">Fotos Hanni</h1>
+      </header>
+
+      <nav class="mb-4">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sentimientos">Sentimientos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://pin.it/1ddO06LGr" target="_blank">Enlace externo</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section>
+        <article class="mb-4">
+          <h2 id="galeria">Galería</h2>
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Imagen</th>
+                  <th>Descripción</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><img src="./IMG_3276.JPG" alt="Imagen 1" class="imagen" /></td>
+                  <td>Primera imagen de la galería</td>
+                </tr>
+                <tr>
+                  <td><img src="./IMG_3282.JPG" alt="Imagen 2" class="imagen" /></td>
+                  <td>Segunda imagen de la galería</td>
+                </tr>
+                <tr>
+                  <td><img src="./IMG_3320.JPG" alt="Imagen 3" class="imagen" /></td>
+                  <td>Tercera imagen de la galería</td>
+                </tr>
+                <tr>
+                  <td><img src="./IMG_3297.JPG" alt="Imagen 4" class="imagen" /></td>
+                  <td>Cuarta imagen de la galería</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+        <aside class="mb-4">
+          <h3 id="sentimientos">Información adicional</h3>
+          <p>Esta página es para expresar los sentimientos a través de la fotografía</p>
+        </aside>
+      </section>
+
+      <footer class="mt-4">
+        <p>Desarrollado por Maria José &copy; 2024</p>
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
